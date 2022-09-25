@@ -1,18 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-// Components
-import ProjectBox from "../Elements/ProjectBox";
-import FullButton from "../Buttons/FullButton";
 // Assets
-import ProjectImg1 from "../../assets/images/projects/1.png";
-import ProjectImg2 from "../../assets/images/projects/2.png";
-import ProjectImg3 from "../../assets/images/projects/3.png";
-import ProjectImg4 from "../../assets/images/projects/4.png";
-import ProjectImg5 from "../../assets/images/projects/5.png";
-import ProjectImg6 from "../../assets/images/projects/6.png";
 import AddImage2 from "../../assets/images/ContractPub/add2.png";
-import contact from "../../assets/images/Differtent/legal.png"
-import pro from "../../assets/images/Differtent/Pro.png"
 import MobileStoreButton from "react-mobile-store-button";
 
 export default function Projects() {
@@ -36,7 +25,7 @@ export default function Projects() {
             <AddRight>
               <h2 className="font40 extraBold">Now and forever</h2>
               <p className="font12">
-              First 3 created contracts are <span className="span-free">free</span> and you can<br/> use it <span className="span-free">forever</span>.All incoming contracts are always<br/> free.    
+              First 3 created contracts are <span className="span-free">free</span> and you can<br/> use it <span className="span-free">forever.</span>    
               </p>
               <div className="mt-5 sm:mt-4 sm:flex sm:justify-center lg:justify-start font40">
           <div className="rounded-md shadow">

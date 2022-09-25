@@ -1,30 +1,61 @@
 import styles from "../../style";
 
-import { footerLinks, socialMedia } from "../../constants";
-import { NavLink, Route, Routes } from "react-router-dom";
+import { socialMedia } from "../../constants";
+import { NavLink } from "react-router-dom";
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <h1 className="text-white">E-Tafakna</h1>
         <p className={`${styles.paragraph} mt-4 max-w-[312px] text-white`}>
-          A new way to make your contract easy, reliable and secure.
+          Legally Binding Agreements online Customize, Manage,Negotiate and Sign
         </p>
       </div>
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         <div className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
-          <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
-            Check
-          </h4>
+          <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white"></h4>
           <ul className="list-none mt-4 text-white">
             <NavLink to="/term">
               {" "}
               <li
                 className={`font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-gray-400 cursor-pointer `}
-                onClick={ window.scrollTo(0, 0)}
+                onClick={window.scrollTo(0, 0)}
               >
                 Terms and Conditions
+              </li>
+            </NavLink>
+          </ul>
+          <ul className="list-none text-white">
+            <NavLink to="/privacy">
+              {" "}
+              <li
+                className={`font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-gray-400 cursor-pointer `}
+                onClick={window.scrollTo(0, 0)}
+              >
+                Privacy
+              </li>
+            </NavLink>
+          </ul>
+          <ul className="list-none text-white">
+            <NavLink to="/team">
+              {" "}
+              <li
+                className={`font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-gray-400 cursor-pointer `}
+                onClick={window.scrollTo(0, 0)}
+              >
+                Our Team
+              </li>
+            </NavLink>
+          </ul>
+          <ul className="list-none mt-4 text-white">
+            <NavLink to="/contact">
+              {" "}
+              <li
+                className={`font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-gray-400 cursor-pointer `}
+                onClick={window.scrollTo(0, 0)}
+              >
+                Contact us
               </li>
             </NavLink>
           </ul>

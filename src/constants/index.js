@@ -1,35 +1,39 @@
-import {facebook, instagram, linkedin, twitter,send, shield, star,etafakna } from "../assets";
+import {
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  send,
+} from "../assets";
+import pen from "../assets/svg/SVG/pen.png";
+import manage from "../assets/svg/SVG/manage.png";
 
-
-import law from "../assets/images/Partner/law.png"
-import ars from "../assets/images/Partner/ars.svg"
-
-
+import law from "../assets/images/Partner/law.png";
+import ars from "../assets/images/Partner/ars.svg";
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: pen,
+    title: "Customize",
     content:
       "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec rutrum congue leo eget malesuada",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: manage,
+    title: "Manage",
     content:
       "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec rutrum congue leo eget malesuada",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Free send",
+    title: "Share",
     content:
       "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec rutrum congue leo eget malesuada",
   },
-]
-
+];
 
 export const stats = [
   {
@@ -54,27 +58,27 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        path:"ewdewd",
+        path: "ewdewd",
         name: "Content",
         link: "https://www.hoobank.com/content/",
       },
       {
-        path:"dewdewd",
+        path: "dewdewd",
         name: "How it Works",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        path:"dedwe",
+        path: "dedwe",
         name: "Create",
         link: "https://www.hoobank.com/create/",
       },
       {
-        path:"dewdew",
+        path: "dewdew",
         name: "Explore",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        path:"security",
+        path: "security",
         name: "Terms & Services",
         link: "https://www.hoobank.com/terms-and-services/",
       },

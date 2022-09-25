@@ -1,5 +1,6 @@
 import "../Team/Team.css";
 import Instal from "../../components/Sections/install";
+import { NavLink} from "react-router-dom";
 const Team = () => {
   const data = [
     {
@@ -16,7 +17,7 @@ const Team = () => {
       <div className="team_wrapper mt-20">
         <div id="main" className="team__article">
           <div className="team__title">
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl ml-20">
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl ml-20 mt-40">
               Terms &amp; Conditions
             </h1>
           </div>
@@ -26,27 +27,35 @@ const Team = () => {
               <div className="team__column ml-20">
                 <div className="item__title">
                   <h3>
-                    You can find our Privacy Policy <a id="here">here</a>
+                    You can find our Privacy Policy{" "}
+                    <NavLink 
+                    to="/privacy"
+                    >
+                       <a className="font-bold tracking-tight text-bleu-900 mt-3">
+                      here
+                    </a>
+                    </NavLink>
+                   
                   </h3>
                 </div>
                 <div className="item_text">
-                  <h3>PLEASE READ THESE LICENSE TERMS CAREFULLY</h3>
-                  <div>
-                    <span id="spanv">
+                  <h3 className="mt-3">PLEASE READ THESE LICENSE TERMS CAREFULLY</h3>
+                  <div className="mt-3">
+                    <span id="spanv mt-3">
                       PURCHASES YOU AGREE TO THESE TERMS. IF YOU DO NOT AGREE TO
                       THESE TERMS STOP USING THE APP AND UNINSTALL IT, AS WELL
                       AS DO NOT PROCEED TO MAKE IN-APP PURCHASES.
                     </span>
                   </div>
                   <div>
-                    <h4 className="mt-10">
+                    <h4 className="mt-5">
                       We are Additional E-Tafakna Sarl , a private company duly
                       registered and incorporated under the laws of the State of
                       Tunis, Tunisia,
                     </h4>
                   </div>
                   <div>
-                    <h4 className="mt-10">We license you to use:</h4>
+                    <h4 className="mt-5">We license you to use:</h4>
                   </div>
                   <div>
                     <p>

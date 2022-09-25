@@ -19,10 +19,11 @@ export default function Services() {
           <HeaderInfo>
             <h1 className="font40 extraBold">Our Awesome Services</h1>
             <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut
+              E-Tafakna is a mobile App that offers legally binding contracts
+              and documents
               <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+              that you can customize, manage, negotiate, electronically sign and
+              send.
             </p>
           </HeaderInfo>
           <ServiceBoxRow className="flex">
@@ -30,28 +31,35 @@ export default function Services() {
               <ServiceBox
                 icon="roller"
                 title="Digital Signature"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+                subtitle="Sign Electronically with the e-signature on you mobile phone "
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
-                title="Easy payment"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
+                title="Legally Binding Contracts "
+                subtitle="Legally binding contracts written by one of the most prestigious law firms in town."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
-                title="Security"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
+                title="Online Legal Expertise "
+                subtitle="Get your own legal expertise online with a lawyer."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="printer"
-                title="Sharing"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                title="Security"
+                subtitle="Sign documents over the internet ﻿in a secured and encrypted manner."
+              />
+            </ServiceBoxWrapper>
+            <ServiceBoxWrapper>
+              <ServiceBox
+                icon="printer"
+                title="Mobility"
+                subtitle="Customize, manage and sign you contract anywhere and anytime."
               />
             </ServiceBoxWrapper>
           </ServiceBoxRow>
@@ -60,13 +68,14 @@ export default function Services() {
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>
-                <h4 className="font15 semiBold">With more than 16 contract!</h4>
+                <h4 className="font15 semiBold">
+                  More than 20 contracts available online Just for You !
+                </h4>
                 <h2 className="font40 extraBold">See All of our Contracts</h2>
                 <p className="font12">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum.
+                  Users can customize and sign documents over the internet ﻿in a
+                  secured and encrypted manner with the possibility to have
+                  online legal expertise at an affordable price
                 </p>
                 <ButtonsRow
                   className="flexNullCenter"

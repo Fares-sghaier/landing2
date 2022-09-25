@@ -9,24 +9,19 @@ export default function Pricing() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Check Our Pricing</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
+            <h1 className="font40 extraBold">Our Offers </h1>
           </HeaderInfo>
           <TablesWrapper className="flexSpaceNull">
             <TableBox>
               <PricingTable
                 icon="roller"
-                price="29,99/mo"
-                title="Basic"
+                price="20 TND/Month"
+                title="PERSONAL PLAN"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 offers={[
-                  { name: "Example", cheked: true },
-                  { name: "Offer", cheked: true },
+                  { name: "5 contracts", cheked: true },
+                  { name: "E-signature", cheked: true },
+                  { name: "Online consultation", close: true },
                 ]}
                 action={() => alert("clicked")}
               />
@@ -34,12 +29,13 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="monitor"
-                price="49,99/mo"
-                title="Meduim"
+                price="55 TND/Month"
+                title="STANDARD PLAN"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
+                  { name: "15 contracts", cheked: true },
+                  { name: "E-signature", cheked: true },
+                  { name: "Online consultation", close: true },
                 ]}
                 action={() => alert("clicked")}
               />
@@ -47,12 +43,13 @@ export default function Pricing() {
             <TableBox>
               <PricingTable
                 icon="browser"
-                price="59,99/mo"
-                title="Pro"
+                price="99 TND/Month"
+                title="BUSINESS PRO"
                 text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
                 offers={[
-                  { name: "Product Offer", cheked: true },
-                  { name: "Offer", cheked: true },
+                  { name: "Unlimited contracts", cheked: true },
+                  { name: "E-signature", cheked: true },
+                  { name: "Online consultation", cheked: true },
                 ]}
                 action={() => alert("clicked")}
               />
@@ -81,6 +78,7 @@ const TablesWrapper = styled.div`
 `;
 const TableBox = styled.div`
   width: 31%;
+  height: 31%;
   @media (max-width: 860px) {
     width: 100%;
     max-width: 370px;

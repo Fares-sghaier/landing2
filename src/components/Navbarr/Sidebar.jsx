@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
-import { NavLink, Route, Routes } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // Assets
 import CloseIcon from "../../../src/assets/svg/CloseIcon";
 import LogoIcon from "../../../src/assets/images/Logo/logo.png";
@@ -30,12 +29,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         <li className="semiBold font15 pointer">
           <NavLink
             onClick={() => toggleSidebar(!sidebarOpen)}
-            activeClass="active"
+            activeclass="active"
             className="blackColor"
             style={{ padding: "10px 15px" }}
             to="/"
-            spy={true}
-            smooth={true}
+            
+            
             offset={-60}
           >
             Home
@@ -44,12 +43,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         <li className="semiBold font15 pointer">
           <NavLink
             onClick={() => toggleSidebar(!sidebarOpen)}
-            activeClass="active"
+            activeclass="active"
             className="blackColor"
             style={{ padding: "10px 15px" }}
             to="/contracts"
-            spy={true}
-            smooth={true}
+            
+            
             offset={-60}
           >
             Contracts
@@ -58,12 +57,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         <li className="semiBold font15 pointer">
           <NavLink
             onClick={() => toggleSidebar(!sidebarOpen)}
-            activeClass="active"
+            activeclass="active"
             className="blackColor"
             style={{ padding: "10px 15px" }}
             to="/team"
-            spy={true}
-            smooth={true}
+            
+            
             offset={-60}
           >
             Team
@@ -72,12 +71,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         <li className="semiBold font15 pointer">
           <NavLink
             onClick={() => toggleSidebar(!sidebarOpen)}
-            activeClass="active"
+            activeclass="active"
             className="blackColor"
             style={{ padding: "10px 15px" }}
             to="/contact"
-            spy={true}
-            smooth={true}
+            
+            
             offset={-60}
           >
             Contact us

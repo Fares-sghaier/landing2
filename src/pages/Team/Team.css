@@ -40,7 +40,9 @@
   border-radius: 50%;
 }
 .section-team .item__column {
-  width: calc(100% - 272px);
+  height:350px;
+   max-width:650px;
+   text-align: center;
 }
 @media (max-width: 767px) {
   .section-team .item__column {
@@ -87,8 +89,6 @@
     font-size: 24px;
 }
 .imaage{
-    max-width: 157%;
-    height: auto;
     border-radius: 100%;
 }
 .spacer{
@@ -97,4 +97,12 @@
     margin-top: 5%;
     background-color: rgb(202, 200, 200);
 
+}
+.item__img{
+  width: 180px;
+  height: 150px;
+  display: inline-block;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
 }

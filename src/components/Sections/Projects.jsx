@@ -21,14 +21,13 @@ export default function Projects() {
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">What makes E-Tafakna different</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
+            <h1 className="font40 extraBold text-black">We provide basic Legal care for everyone! </h1>
+            <p className="font20">
+            Legal expertise that is affordable, accessible, easy to manage and understand.
+             
             </p>
           </HeaderInfo>
-          <div className="row textCenter">
+          {/* <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={contact}
@@ -54,7 +53,7 @@ export default function Projects() {
                 action={() => alert("clicked")}
               />
             </div>
-          </div>
+          </div> */}
           <div className="row textCenter">
         
          
@@ -73,17 +72,17 @@ export default function Projects() {
               <AddLeftInner>
                 <ImgWrapper className="flexCenter">
               
-                  <img className="radius8" src={AddImage2} alt="add" width={20}/>
+                  <img className="radius8 mt-20" src={AddImage2} alt="add" width={20}/>
                 </ImgWrapper>
               </AddLeftInner>
             </AddLeft>
             <AddRight>
-              <h4 className="font15 semiBold">A few steps and generate a contract!</h4>
-              <h2 className="font40 extraBold">New Level of Contracts</h2>
-              <p className="font12">
+              <h4 className="font15 semiBold">Only few steps to generate your contract!</h4>
+              <h2 className="font40 extraBold">Next Generation of Contract Management</h2>
+              {/* <p className="font12">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
                 diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              </p>
+              </p> */}
              
             </AddRight>
           </Advertising>

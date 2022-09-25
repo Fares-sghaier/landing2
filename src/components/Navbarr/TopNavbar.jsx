@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 // Components
 import Sidebar from "./Sidebar";
 import Backdrop from "../Elements/Backdrop";
 // Assets
 import LogoIcon from "../../../src/assets/images/Logo/logo.png";
 import BurgerIcon from "../../../src/assets/svg/BurgerIcon";
-import { NavLink, Route, Routes } from "react-router-dom";
+
 export default function TopNavbar() {
   const [y, setY] = useState(window.scrollY);
   // window.scrollTo(0, 0)
@@ -29,7 +30,7 @@ export default function TopNavbar() {
         style={y > 100 ? { height: "60px" } : { height: "80px" }}
       >
         <NavInner className="container flexSpaceCenter">
-          <Link className="pointer flexNullCenter" to="home" smooth={true}>
+          <Link className="pointer flexNullCenter" to="home">
             <div>
               <img className="h-12 w-auto" src={LogoIcon} alt="Your Company" />
             </div>
@@ -46,11 +47,11 @@ export default function TopNavbar() {
           <UlWrapper className="flexNullCenter mr-40">
             <li className="semiBold font15 pointer">
               <NavLink
-                activeClass="active"
+                activeclass="active"
                 style={{ padding: "10px 15px" }}
                 to="/"
-                spy={true}
-                smooth={true}
+                
+               
                 offset={-80}
               >
                 Home
@@ -58,11 +59,11 @@ export default function TopNavbar() {
             </li>
             <li className="semiBold font15 pointer">
               <NavLink
-                activeClass="active"
+                activeclass="active"
                 style={{ padding: "10px 15px" }}
                 to="/contracts"
-                spy={true}
-                smooth={true}
+                
+               
                 offset={-80}
               >
                 Contracts
@@ -70,11 +71,11 @@ export default function TopNavbar() {
             </li>
             <li className="semiBold font15 pointer">
               <NavLink
-                activeClass="active"
+                activeclass="active"
                 style={{ padding: "10px 15px" }}
                 to="/team"
-                spy={true}
-                smooth={true}
+                
+               
                 offset={-80}
               >
                 Team
@@ -82,11 +83,11 @@ export default function TopNavbar() {
             </li>
             <li className="semiBold font15 pointer">
               <NavLink
-                activeClass="active"
+                activeclass="active"
                 style={{ padding: "10px 15px" }}
                 to="/contact"
-                spy={true}
-                smooth={true}
+                
+               
                 offset={-80}
               >
                 Contact us

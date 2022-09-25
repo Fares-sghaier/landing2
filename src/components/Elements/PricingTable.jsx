@@ -4,11 +4,8 @@ import styled from "styled-components";
 import FullButton from "../Buttons/FullButton";
 // Assets
 import RollerIcon from "../../assets/svg/Services/Price";
-import MonitorIcon from "../../assets/svg/Services/Price";
-import BrowserIcon from "../../assets/svg/Services/Price";
-import PrinterIcon from "../../assets/svg/Services/Price";
 import CheckMark from "../../assets/svg/Checkmark";
-
+import CloseMark from "../../assets/svg/Xmark";
 export default function PricingTable({
   icon,
   price,
@@ -41,10 +38,10 @@ export default function PricingTable({
     <Wrapper className="lightBg radius8 shadow">
       <div className="flexSpaceCenter">
         {getIcon}
-        <p className="font30 extraBold">{price}</p>
+        <p className="font20 extraBold">{price}</p>
       </div>
       <div style={{ margin: "30px 0" }}>
-        <h4 className="font30 extraBold">{title}</h4>
+        <h4 className="font20 extraBold">{title}</h4>
         <p className="font13">{text}</p>
       </div>
       <div>
@@ -62,14 +59,22 @@ export default function PricingTable({
                     marginRight: "15px",
                   }}
                 >
-                  {item.cheked ? (
+                  {item.cheked? (
                     <div style={{ minWidth: "20px" }}>
                       <CheckMark />
                     </div>
                   ) : (
                     <div style={{ minWidth: "20px" }}></div>
                   )}
+                    {item.close? (
+                    <div style={{ minWidth: "20px" }}>
+                      <CloseMark />
+                    </div>
+                  ) : (
+                    <div style={{ minWidth: "20px" }}></div>
+                  )}
                 </div>
+
                 <p className="font20 extraBold">{item.name}</p>
               </div>
             ))

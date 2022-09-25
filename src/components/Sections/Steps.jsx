@@ -11,7 +11,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
     >
-      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
+      <img src={icon} alt="star" className="w-[100%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-black text-[18px] leading-[23.4px] mb-1">
@@ -32,11 +32,10 @@ const Steps = () => (
         steps.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        orem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five .
-        
+        We provide easy to use online contracts that anyone could personalize,
+        sign and send. We offer you the opportunity to customize and manage your
+        contract without paying an expensive lawyer. We guarantee legal
+        protection to any kind of work or service in a secure and easy manner.
       </p>
     </div>
 
