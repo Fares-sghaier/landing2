@@ -17,7 +17,7 @@ export default function Pricing() {
                 icon="roller"
                 price="20 TND/Month"
                 title="PERSONAL PLAN"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+               
                 offers={[
                   { name: "5 contracts", cheked: true },
                   { name: "E-signature", cheked: true },
@@ -31,7 +31,7 @@ export default function Pricing() {
                 icon="monitor"
                 price="55 TND/Month"
                 title="STANDARD PLAN"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+               
                 offers={[
                   { name: "15 contracts", cheked: true },
                   { name: "E-signature", cheked: true },
@@ -45,7 +45,7 @@ export default function Pricing() {
                 icon="browser"
                 price="99 TND/Month"
                 title="BUSINESS PRO"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+               
                 offers={[
                   { name: "Unlimited contracts", cheked: true },
                   { name: "E-signature", cheked: true },

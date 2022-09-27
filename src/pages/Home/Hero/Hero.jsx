@@ -21,9 +21,9 @@ const Hero = () => {
           Of Contract Signing.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts provides you with any type of contracts that you
-          want , you can sign with your digital signature , also share the
-          contract .
+        Legally Binding Agreements online
+        <br/>
+        <p className="text-blue-700">Customize, Manage,Negotiate and Sign</p>
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">

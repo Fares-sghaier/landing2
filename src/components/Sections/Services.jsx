@@ -37,14 +37,14 @@ export default function Services() {
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="monitor"
-                title="Legally Binding Contracts "
+                title="Contracts "
                 subtitle="Legally binding contracts written by one of the most prestigious law firms in town."
               />
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
                 icon="browser"
-                title="Online Legal Expertise "
+                title="Legal Expertise "
                 subtitle="Get your own legal expertise online with a lawyer."
               />
             </ServiceBoxWrapper>
@@ -57,7 +57,7 @@ export default function Services() {
             </ServiceBoxWrapper>
             <ServiceBoxWrapper>
               <ServiceBox
-                icon="printer"
+                icon="mobility"
                 title="Mobility"
                 subtitle="Customize, manage and sign you contract anywhere and anytime."
               />
@@ -84,7 +84,7 @@ export default function Services() {
                   <div style={{ width: "190px" }}>
                     <NavLink to="/contracts">
                       <FullButton
-                        title="Check out"
+                        title="Check"
                         action={() => window.scrollTo(0, 0)}
                       ></FullButton>
                     </NavLink>

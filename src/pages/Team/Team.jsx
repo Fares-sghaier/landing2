@@ -9,7 +9,7 @@ const Team = () => {
       image:
         "https://media-exp1.licdn.com/dms/image/C4E03AQE0nBCqGGC0Ew/profile-displayphoto-shrink_800_800/0/1656009110100?e=1669248000&v=beta&t=l_v0yVFlHdyHxMP8KTmxCcui69XcZ696Mr42TjJ1jXg",
       description:
-        " nal investments in Maghreb and Africa. Participated in the drafting of several national and regional laws and regulatory frameworks.Law Professor in Tunisia and France.",
+        "Multipotentialite Entrepreneur   ( tawa nab3athlek apres) just bish nkhali lektiba haka bish ykoun texte msanter :))",
     },
     {
       name: "Chiheb Ghazouani",
@@ -19,22 +19,7 @@ const Team = () => {
       description:
         "Managing-Partner of CAG Law Firm (20 lawyers based in Tunis). Acting in Tunisia, Libya, Algeria, and western Africa. Legal Counsel advising European, US, African and Asian clients on their international investments in Maghreb and Africa. Participated in the drafting of several national and regional laws and regulatory frameworks.Law Professor in Tunisia and France.",
     },
-    {
-      name: "None",
-      place: "CEO",
-      image:
-        "https://media.tarkett-image.com/large/TH_25121916_25131916_25126916_25136916_001.jpg",
-      description:
-        " Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Sed",
-    },
-    {
-      name: "None",
-      place: "CEO",
-      image:
-        "https://media.tarkett-image.com/large/TH_25121916_25131916_25126916_25136916_001.jpg",
-      description:
-        " Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Sed",
-    },
+   
   ];
   return (
     <section id="content" className="section-team container">

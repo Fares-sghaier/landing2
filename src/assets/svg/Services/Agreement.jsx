@@ -1,9 +1,9 @@
 import * as React from "react";
-import agreement from "../../images/Flaticons/agreement.png";
+import agreement from "../../images/Flaticons/signature (1).png";
 function SvgComponent(props) {
   return (
     <div>
-      <img width={39.581} height={39.58} src={agreement} />
+      <img width={50} height={39.58} src={agreement} />
     </div>
   );
 }

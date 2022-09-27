@@ -46,7 +46,7 @@ const Data = [
   },
   {
     imageUrl: [pret],
-    title: "loan agreement",
+    title: "Loan agreement",
     description: "Protect yourself when lending money",
     time: "3 min",
     signed: "0 signed",

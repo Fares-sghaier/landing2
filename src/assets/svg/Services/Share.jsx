@@ -1,9 +1,9 @@
 import * as React from "react";
-import share from "../../images/Flaticons/share.png";
+import share from "../../images/Flaticons/security.png";
 function SvgComponent(props) {
   return (
     <div>
-      <img width={39.581} height={39.58} src={share} />
+      <img width={50} height={39.58} src={share} />
     </div>
   );
 }

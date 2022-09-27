@@ -5,7 +5,8 @@ import Agreement from "../../assets/svg/Services/Agreement";
 import Card from "../../assets/svg/Services/card";
 import Security from "../../assets/svg/Services/Security.jsx";
 import Share from "../../assets/svg/Services/Share";
-export default function ServiceBox({icon, title, subtitle}) {
+import Mobility from "../../assets/svg/Services/Mobility";
+export default function ServiceBox({ icon, title, subtitle }) {
   let getIcon;
 
   switch (icon) {
@@ -21,16 +22,16 @@ export default function ServiceBox({icon, title, subtitle}) {
     case "printer":
       getIcon = <Share />;
       break;
-    default:
-      getIcon = <Agreement />;
+    case "mobility":
+      getIcon = <Mobility />;
       break;
+    default:
   }
-
 
   return (
     <Wrapper className="flex flexColumn">
       <IconStyle>{getIcon}</IconStyle>
-      <TitleStyle className="font20 extraBold">{title}</TitleStyle>
+      <TitleStyle className="font10 extraBold">{title}</TitleStyle>
       <SubtitleStyle className="font13">{subtitle}</SubtitleStyle>
     </Wrapper>
   );
