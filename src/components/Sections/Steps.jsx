@@ -31,7 +31,7 @@ const Steps = () => (
         You do the contract, <br className="sm:block hidden" /> we’ll handle the
         steps.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[1000px] mt-5`}>
         We provide easy to use online contracts that anyone could personalize,
         sign and send. We offer you the opportunity to customize and manage your
         contract without paying an expensive lawyer. We guarantee legal
@@ -39,7 +39,7 @@ const Steps = () => (
       </p>
     </div>
 
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div  >
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
       ))}

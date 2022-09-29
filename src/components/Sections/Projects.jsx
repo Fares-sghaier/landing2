@@ -4,14 +4,9 @@ import styled from "styled-components";
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-import ProjectImg1 from "../../assets/images/projects/1.png";
-import ProjectImg2 from "../../assets/images/projects/2.png";
-import ProjectImg3 from "../../assets/images/projects/3.png";
-import ProjectImg4 from "../../assets/images/projects/4.png";
-import ProjectImg5 from "../../assets/images/projects/5.png";
-import ProjectImg6 from "../../assets/images/projects/6.png";
-import AddImage2 from "../../assets/images/ContractPub/add2.png";
-import contact from "../../assets/images/Differtent/legal.png"
+
+import AddImage2 from "../../assets/images/Home/home.png";
+
 import pro from "../../assets/images/Differtent/Pro.png"
 
 
@@ -72,7 +67,7 @@ export default function Projects() {
               <AddLeftInner>
                 <ImgWrapper className="flexCenter">
               
-                  <img className="radius8 mt-20" src={AddImage2} alt="add" width={20}/>
+                  <img className="radius8 mt-10 img" src={AddImage2} alt="add" width={20} />
                 </ImgWrapper>
               </AddLeftInner>
             </AddLeft>

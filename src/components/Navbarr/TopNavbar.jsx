@@ -50,8 +50,6 @@ export default function TopNavbar() {
                 activeclass="active"
                 style={{ padding: "10px 15px" }}
                 to="/"
-                
-               
                 offset={-80}
               >
                 Home
@@ -62,8 +60,6 @@ export default function TopNavbar() {
                 activeclass="active"
                 style={{ padding: "10px 15px" }}
                 to="/contracts"
-                
-               
                 offset={-80}
               >
                 Contracts
@@ -74,8 +70,6 @@ export default function TopNavbar() {
                 activeclass="active"
                 style={{ padding: "10px 15px" }}
                 to="/team"
-                
-               
                 offset={-80}
               >
                 Team
@@ -86,8 +80,6 @@ export default function TopNavbar() {
                 activeclass="active"
                 style={{ padding: "10px 15px" }}
                 to="/contact"
-                
-               
                 offset={-80}
               >
                 Contact us

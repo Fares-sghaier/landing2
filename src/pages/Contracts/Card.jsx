@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 
 //*Image contracts
@@ -15,6 +15,7 @@ import vente from "../../assets/images/Contracts/Vente real estate .jpg";
 import carbying from "../../assets/images/Contracts/car buying.jpg";
 import domiciliation from "../../assets/images/Contracts/domiciliation.jpg";
 import "./Card.css";
+import { data } from "autoprefixer";
 const Data = [
   {
     imageUrl: [nda],
@@ -54,14 +55,16 @@ const Data = [
   {
     imageUrl: [assurance],
     title: "Travel insurance",
-    description: "I don’t want to go to my insurer to get my travel insurance contract before traveling ! Go to E-Tafakna.",
+    description:
+      "I don’t want to go to my insurer to get my travel insurance contract before traveling ! Go to E-Tafakna.",
     time: "2 min",
     signed: "0 signed",
   },
   {
     imageUrl: [devis],
     title: "Order form quotation bill",
-    description: "A fast way to fill an order form, quotation or a bill ? E-Tafakna.",
+    description:
+      "A fast way to fill an order form, quotation or a bill ? E-Tafakna.",
     time: "1 min",
     signed: "0 signed",
   },
@@ -102,6 +105,10 @@ const Data = [
   },
 ];
 const Cards = () => {
+  useEffect(() => {
+  
+  }, []);
+  
   return (
     <Wrapper id="projects ">
       <div className="whiteBg">

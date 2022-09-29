@@ -1,5 +1,5 @@
 import styles from "../../../style";
-import home from "../../../assets/images/Home/home.png";
+import home from "../../../assets/images/ContractPub/add2.png";
 import MobileStoreButton from "react-mobile-store-button";
 
 const Hero = () => {

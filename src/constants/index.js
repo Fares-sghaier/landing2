@@ -15,23 +15,23 @@ export const features = [
   {
     id: "feature-1",
     icon: pen,
-    title: "Customize",
-    content:
-      "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec rutrum congue leo eget malesuada",
+    // title: "Customize",
+    // content:
+    //   "Customize your contract by adding your personal information",
   },
   {
     id: "feature-2",
     icon: manage,
-    title: "Manage",
-    content:
-      "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec rutrum congue leo eget malesuada",
+    // title: "Manage",
+    // content:
+    //   "Manage, Negotiate, Sign and store your contracts",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Share",
-    content:
-      "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec rutrum congue leo eget malesuada",
+    // title: "Share",
+    // content:
+    //   "Share your contract with another party ",
   },
 ];
 
