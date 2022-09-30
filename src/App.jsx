@@ -14,13 +14,7 @@ import Term from "./pages/Terms/TermandCondition";
 import Privacy from "./pages/Privacy/Privacy";
 
 function ScrollToTop() {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return null;
+ 
 }
 
 const App = () => (
